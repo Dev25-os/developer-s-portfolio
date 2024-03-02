@@ -21,10 +21,10 @@ export default function About() {
         I am a <span className="font-medium"> Software Developer </span> with
         over <span className="font-medium"> 2 years </span> of experience in
         developing responsive and efficient web applications. Proficient in web
-        technologies such as{" "}
+        technologies such as
         <span className="font-semibold"> React and Vue.js </span> , I am eager
         to contribute my skills and expertise to an organization where I can
-        continue to grow and enhance both the company's projects and my own
+        continue to grow and enhance both the company&apos;s projects and my own
         capabilities. Beyond web development, I am also enthusiastic about
         exploring and mastering new technologies and methodologies to drive
         innovation and success across various domains.
