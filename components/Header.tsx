@@ -8,8 +8,7 @@ import { useContext, useState } from "react";
 import { ActiveSectionContext } from "@/context/active-section-provider";
 
 const Header = () => {
-  const { activeSection, setActiveSection, setLastTimeClick } =
-    useContext(ActiveSectionContext);
+  const { activeSection, setActiveSection, setLastTimeClick } =useContext<any>(ActiveSectionContext);
 
   return (
     <header className="z-[999] relative">

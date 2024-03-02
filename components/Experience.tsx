@@ -9,13 +9,13 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
-export default function () {
+export default function Experience() {
   const { ref } = useSectionInView("Experience");
   return (
     <motion.section ref={ref} className="mt-36 scroll-mt-28" id="experience">
-      <h1 className="text-2xl font-semibold text-center">Experience</h1>
+      <h1 className="text-2xl font-semibold text-center mb-5">Experience</h1>
 
-      <VerticalTimeline lineColor="#e5e7eb">
+      <VerticalTimeline lineColor="#e5e7eb" className="pt-5">
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
