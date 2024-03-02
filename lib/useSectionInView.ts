@@ -3,7 +3,8 @@ import { useInView } from "react-intersection-observer";
 import { ActiveSectionContext } from "@/context/active-section-provider";
 
 export default function useSectionInView(name: string, threshold = 0.75) {
-  const { setActiveSection, lastTimeClick } = useContext(ActiveSectionContext);
+  const { setActiveSection, lastTimeClick } =
+    useContext<any>(ActiveSectionContext);
   const { ref, inView } = useInView({
     threshold,
   });
