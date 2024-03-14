@@ -8,7 +8,8 @@ import { useContext, useState } from "react";
 import { ActiveSectionContext } from "@/context/active-section-provider";
 
 const Header = () => {
-  const { activeSection, setActiveSection, setLastTimeClick } =useContext<any>(ActiveSectionContext);
+  const { activeSection, setActiveSection, setLastTimeClick } =
+    useContext<any>(ActiveSectionContext);
 
   return (
     <header className="z-[999] relative">
@@ -22,12 +23,13 @@ const Header = () => {
 
       sm:top-6 sm:h-[3.25rem]
       sm:w-[36rem] sm:rounded-full
+      
       "
         initial={{ y: -100, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       ></motion.div>
 
-      <nav className=" flex fixed top-[0.15rem] left-1/2 -translate-x-1/2 py-2 sm:py-0 sm:top-[2.4rem]  sm:h-[initial]">
+      <nav className="w-full  sm:w-[initial] flex fixed top-[0.15rem] left-1/2 -translate-x-1/2    py-2 sm:py-0 sm:top-[2.4rem]  sm:h-[initial] ">
         <ul
           className=" flex items-center justify-center gap-x-3 flex-wrap gap-y-1 text-[0.9rem] text-gray-500 sm:w-[initial] sm:flex sm:flex-nowrap  sm:items-center sm:justify-center sm:gap-x-6
         "

@@ -57,8 +57,8 @@ export default function Intro() {
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          <span className="font-semibold"> Hello, I&apos;m Bikesh Gupta.</span> I&apos;m a{" "}
-          <span className="font-semibold">software developer </span>
+          <span className="font-semibold"> Hello, I&apos;m Bikesh Gupta.</span>{" "}
+          I&apos;m a <span className="font-semibold">software developer </span>
           with <span className="font-semibold"> 2 years </span> of experience. I
           enjoy building sites and apps. My focus is{" "}
           <span className="underline">React and Next.js</span>
@@ -83,7 +83,7 @@ export default function Intro() {
           </span>
         </Link>
         <a
-          href="/CV.pdf"
+          href="/BikeshGupta-Resume.pdf"
           download
           className="bg-white py-2 px-3 flex items-center gap-x-2 rounded-full text-gray-900"
         >
