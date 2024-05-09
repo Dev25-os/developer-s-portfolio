@@ -17,7 +17,7 @@ export default function Intro() {
     <section className="scroll-mt-28" id="home" ref={ref}>
       <div className="flex items-center justify-center ">
         <div className="relative">
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -35,7 +35,7 @@ export default function Intro() {
               priority={true}
               className="object-cover rounded-full h-24 w-24 border-2 relative border-white shadow-xl"
             />
-          </motion.div>
+          </motion.div> */}
           <motion.span
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
