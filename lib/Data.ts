@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import cymplyfi from "@/public/cymplyfi.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -82,11 +82,19 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Cymplyfi",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A CMS tool to make the life of project manager easier. It includes Project Management System, Expense Tracker, Resources Allocation and helpful for Accounting purposes.",
+    tags: [
+      "Nuxt.js",
+      "Vue.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind",
+      "Vuetify",
+    ],
+    imageUrl: cymplyfi,
   },
   {
     title: "rmtDev",
@@ -105,7 +113,6 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  
   "Next.js",
   "React",
   "JavaScript",
