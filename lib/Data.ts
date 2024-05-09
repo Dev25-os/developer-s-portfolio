@@ -3,8 +3,9 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import cymplyfi from "@/public/cymplyfi.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import bonusround from "@/public/bonusround.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import { title } from "process";
 
 export const links = [
   {
@@ -88,6 +89,7 @@ export const projectsData = [
     tags: [
       "Nuxt.js",
       "Vue.js",
+      "vuex",
       "Node.js",
       "Express.js",
       "MongoDB",
@@ -97,11 +99,19 @@ export const projectsData = [
     imageUrl: cymplyfi,
   },
   {
-    title: "rmtDev",
+    title: "Bonus Round",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Bonus Round is a platform to watch canadian tv shows it allows admin to have full control on managing content through a admin page.",
+    tags: [
+      "Nuxt.js",
+      "Vue.js",
+      "vuex",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Bootstrap",
+    ],
+    imageUrl: bonusround,
   },
   {
     title: "Word Analytics",
